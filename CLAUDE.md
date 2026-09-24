@@ -25,6 +25,15 @@ Pulse is an attached local codebase folder (`Pulse/`), not a GitHub repo. Browse
 - Upcoming dates in the mockup data are computed from today (helpers at the top of the logic script).
 - `DEMO-SCRIPT.md` lists the questions Helios has real answers for.
 
+## Lydon build
+- `Pulse v4 Glass.dc.html` is configured for Lydon (builder-developer, 7 developments). All Lydon figures live in
+  one data layer near the top of the logic script (`LY_DEVS`, `LY_STORY`, `LY_FACILITIES`, `LY_CF`, ...). Totals
+  are computed from rows; story numbers are defined once in `LY_STORY`. Change data there, never in page copy.
+- Module pages (Home, Group, Developments, Programme, Costs, Procurement, Finance, Sales, Compliance, Records) are
+  built by `lyBuildPage` as lists of blocks and rendered by the single `<sc-if isModule>` template. Drill-downs
+  open `lyDrawer(key)` side panels (`story:priory`, `unit:PF-1-084`, `inv:INV-88341`, `cost:coach:CON-210`, ...).
+- Work, Agents, Activity, Records → Files and Settings keep their original templates with Lydon data.
+
 ## Conventions the mockups should keep
 - Helios never executes write/external tools; it proposes and waits for a confirmation bound to hashed arguments.
 - The action inbox answers three things per item: what happened, why it matters, what I can do.
