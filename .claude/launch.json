@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "pulse-mockups",
-      "url": "http://pulse.localhost:8080",
-      "port": 8080
+      "url": "http://pulse.localhost:8081",
+      "port": 8081
     }
   ]
 }

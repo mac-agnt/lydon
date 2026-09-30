@@ -22,6 +22,7 @@ TYPES = {
     ".css": "text/css; charset=utf-8",
     ".svg": "image/svg+xml",
     ".woff2": "font/woff2",
+    ".jpg": "image/jpeg",
 }
 FILES = {
     "/": "Pulse v4 Glass.dc.html",

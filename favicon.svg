@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <!-- Pulse tab icon: the app's accent tile with its own pulseLine icon (ICONS.pulseLine). -->
-  <rect width="24" height="24" rx="6" fill="#c8f04b"/>
-  <path d="M2.5 12.5h3.6l2.1-6.4 3.2 12.2 2.6-8.4 1.8 2.6h5.7" transform="translate(2.4 2.4) scale(.8)" fill="none" stroke="#0b0c0b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Lydon tab icon: the Lydon mark (from lydon.ie/wp-content/uploads/2024/10/lydon-logo.svg) on Lydon green. -->
+  <rect width="24" height="24" rx="6" fill="#164F43"/>
+  <path d="M127.5,85.4l-14.3,14.3c-.5.5-1.2.5-1.7,0-.2-.2-.3-.5-.3-.8v-48.7c0-3.2-1.4-6.3-3.8-8.4L74.5,8.8c-.4-.4-.5-1-.2-1.5.2-.5.8-.7,1.3-.6l33.4,8.9c2.5.7,4.5,2.6,5.1,5.1l15.4,57.6c.7,2.5,0,5.2-1.9,7M64.6,4.5c0-.4-.4-.8-.8-.9L51.3.2C50.7,0,50.1,0,49.4,0c-1.9,0-3.8.8-5.2,2.1L2.1,44.3c-1.8,1.8-2.6,4.5-1.9,7l15.8,59.1c.1.5.6.9,1.1.9,0,0,.1,0,.2,0,.6,0,1-.6,1-1.2v-60.5c0-3.2,1.4-6.3,3.9-8.4L64.2,5.6c.3-.3.5-.7.4-1.2M97,113.1H26.3c-.6,0-1.2.5-1.2,1.2,0,.5.4,1,.9,1.1l52.4,14c2.5.7,5.2,0,7-1.9l12.4-12.4c.5-.5.5-1.2,0-1.7-.2-.2-.5-.3-.8-.3" transform="translate(4 4) scale(.1231)" fill="#ffffff"/>
 </svg>
